@@ -1,0 +1,66 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;800&display=swap');
+
+html {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+
+  background-color: var(--dark);
+}
+
+h1, h2, h3, h4 {font-weight: 800;}
+h1 {font-size: 3rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 2rem}
+h4 {font-size: 1.125rem;}
+
+p {font-weight: 500; font-size: 1rem;}
+
+
+/* COLORS */
+:root {
+  --light-blue: #3EE9E5;
+  --dark-blue: #093F68;
+  --grey: #777F98;
+  --white: #FFF;
+  --dark: #080C20;
+  --red: #FF2965;
+}
+
+
+/* TEXT FIELDS  */
+.text-field {
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--white);
+
+  padding: .75rem 0 .75rem 1.125rem;
+  width: 20rem;
+
+  border-radius: 1.5rem;
+  border: none;
+
+  background-color: var(--dark-blue);
+  font-weight: 800;
+  outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--white);
+  opacity: 0.4; 
+  font-weight: 800;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--white);
+  opacity: 0.4; 
+  font-weight: 800;
+}
+
+.text-field-complete {
+  border: 1px solid var(--light-blue);
+}
+
+.text-field-error {
+  border: 2px solid var(--red);
+}
