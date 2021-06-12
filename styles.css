@@ -19,11 +19,11 @@ html {
 }
 
 h1, h2, h3, h4 {font-weight: 800; color: var(--white);}
-h1 {font-size: 2rem;}
+h1 {font-size: 2rem; line-height: 125%;}
 h2 {font-size: 1.5rem;}
 h3 {font-size: 1.125rem;}
 
-p {font-weight: 500; font-size: 1rem; color: var(--grey);}
+p {font-weight: 200; font-size: 1rem; color: var(--grey); line-height: 167%;}
 
 
 /* COLORS */
@@ -118,6 +118,32 @@ header {
   padding: 2.5rem 0 4.125rem;
 }
 
+.banner-mobile {
+  overflow: hidden;
+  margin-bottom: 2.8125rem;
+}
+
+.banner-mobile img {
+  display: block;
+  width: 110%;
+}
+
+/* non-mobile devices only */
+.banner-left, .banner-right {display: none;}
+
+.banner h1 {
+  text-align: center;
+  margin: 0 17% 1.8125rem;
+}
+
+.banner h1 span {
+  color: var(--light-blue);
+}
+
+.banner p {
+  text-align: center;
+  margin: 0 6%;
+}
 
 
 /*----------------------------------------------------------------------------*/
