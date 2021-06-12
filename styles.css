@@ -67,12 +67,12 @@ p {font-weight: 500; font-size: 1rem; color: var(--grey);}
 }
 
 .text-field:focus  {
-  border: 2px solid var(--light-blue);
+  border: .125rem solid var(--light-blue);
   transition: .1s;
 }
 
 .text-field-error {
-  border: 2px solid var(--red);
+  border: .125rem solid var(--red);
 }
 
 
@@ -101,15 +101,23 @@ button:active {
   button:hover, button:focus  {
     background-color: var(--dark);
     color: var(--white);
-    border: 2px solid var(--light-blue);
+    border: .125rem solid var(--light-blue);
     transition: border .1s, background-color .3s;
   }
 }
 
 
+
 /*----------------------------------------------------------------------------*/
 /* HEADER + BANNER -----------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0 4.125rem;
+}
+
 
 
 /*----------------------------------------------------------------------------*/
