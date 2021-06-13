@@ -161,7 +161,7 @@ header {
 
 .features {
   text-align: center;
-  margin: 0 6%;
+  margin: 0 6% 9rem;
 }
 
 .feature {
@@ -205,7 +205,67 @@ header {
 /*----------------------------------------------------------------------------*/
 /* PRICING -------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
+.pricing {
+  margin: 0 6%;
+  color: var(--white);
+}
 
+.pricing h2 {
+  text-align: center;
+  margin-bottom: 1.6875rem;
+}
+
+.pricing p {
+  text-align: center;
+}
+
+
+.option-free {
+  margin-top: 5rem;
+  margin-bottom: 4.125rem;
+  background-color: var(--dark-blue);
+  padding: 3.125rem 1.875rem 2rem;
+  border-radius: .5rem;
+  text-align: left;
+}
+
+.option-free h3 {
+  margin-bottom: 1.25rem;
+}
+
+.option-free p {
+  text-align: left;
+  color: var(--white);
+  opacity: .6;
+  mix-blend-mode: normal;
+  margin-bottom: 3.125rem;
+}
+
+.option-free .price {
+  font-size: 2.5rem;
+  opacity: 1;
+  margin-bottom: 1.25rem;
+  line-height: normal;
+  font-weight: 800;
+}
+
+.option-free ul {
+  list-style: none;
+}
+
+.option-free li {
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+
+.option-free li:last-child {
+  margin-bottom: 0;
+}
+
+.free-check {
+  color: var(--light-blue);
+  margin-right: 1rem;
+}
 
 /*----------------------------------------------------------------------------*/
 /* FOOTER --------------------------------------------------------------------*/
