@@ -11,7 +11,7 @@
 html {background-color: var(--dark);}
 
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;800&display=swap');
 
 html {
   font-family: 'Manrope', sans-serif;
@@ -131,9 +131,14 @@ header {
 /* non-mobile devices only */
 .banner-left, .banner-right {display: none;}
 
+.banner-content {
+  margin: 0 6% 9rem;
+}
+
 .banner h1 {
   text-align: center;
-  margin: 0 17% 1.8125rem;
+  padding: 0 12%;
+  margin-bottom: 1.8125rem;
 }
 
 .banner h1 span {
@@ -142,13 +147,22 @@ header {
 
 .banner p {
   text-align: center;
-  margin: 0 6%;
+  margin-bottom: 2.5rem;
 }
 
+.icon {
+  display: block;
+  margin: 0 auto;
+}
 
 /*----------------------------------------------------------------------------*/
 /* FEATURES ------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
+
+.features {
+  text-align: center;
+}
+
 
 
 /*----------------------------------------------------------------------------*/
