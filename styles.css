@@ -16,7 +16,6 @@ html {background-color: var(--dark);}
 html {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
-  border: 3px solid red;
 }
 
 h1, h2, h3, h4 {font-weight: 800; color: var(--white);}
@@ -48,7 +47,7 @@ p {font-weight: 200; font-size: 1rem; color: var(--grey); line-height: 167%;}
   color: var(--white);
 
   padding: .75rem 0 .75rem 1.125rem;
-  width: 20rem;
+  width: 87%;
 
   border-radius: 1.5rem;
   border: none;
@@ -87,7 +86,10 @@ button {
   font-weight: 800;
   color: var(--dark-blue);
 
-  padding: .75rem 1.125rem;
+  padding: 1rem;
+  width: 87%;
+  margin: 1.5rem 0 10.25rem;
+
   
   border-radius: 1.5rem;
   border: none;
@@ -284,6 +286,7 @@ header {
   border-radius: .5rem;
   text-align: left;
   position: relative;
+  margin-bottom: 9rem;
 }
 
 .option-premium img {
@@ -346,4 +349,25 @@ header {
 /*----------------------------------------------------------------------------*/
 /* FOOTER --------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
-    
+
+footer {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-squiggle {
+  position: absolute;
+  left: -105px;
+  z-index: -100;
+}
+
+.footer-squiggle img {
+  width: 584px;
+}
+
+footer h2 {
+  padding: 0 20%;
+  line-height: 2.25rem;
+  margin-bottom: 1.875rem;
+}
