@@ -66,13 +66,19 @@ p {font-weight: 200; font-size: 1rem; color: var(--grey); line-height: 167%;}
   font-weight: 800;
 }
 
-.text-field:focus  {
+.text-field-verified {
   border: .125rem solid var(--light-blue);
   transition: .1s;
 }
 
 .text-field-error {
   border: .125rem solid var(--red);
+}
+
+.error-text {
+  display: none;
+  margin-top: .5rem;
+  color: var(--red);
 }
 
 
