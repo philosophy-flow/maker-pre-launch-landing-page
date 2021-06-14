@@ -46,7 +46,7 @@ p {font-weight: 200; font-size: 1rem; color: var(--grey); line-height: 167%;}
   font-weight: 800;
   color: var(--white);
 
-  padding: .75rem 0 .75rem 1.125rem;
+  padding: .75rem 1.125rem;
   width: 87%;
 
   border-radius: 1.5rem;
@@ -98,6 +98,7 @@ button {
 
 button:active {
   transform: scale(.9);
+  transition: .3s;
 }
 
 @media (hover: hover) and (pointer: fine) {
