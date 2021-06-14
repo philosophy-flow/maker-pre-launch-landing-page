@@ -432,7 +432,9 @@ header {
   width: 55%;
   height: 90%;
   background-image: url("./assets/bg-hero-squiggle.svg");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
