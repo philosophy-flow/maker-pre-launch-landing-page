@@ -94,8 +94,6 @@ button {
 
   padding: 1rem;
   width: 87%;
-  margin: 1.5rem 0 10.25rem;
-
   
   border-radius: 1.5rem;
   border: none;
@@ -370,25 +368,21 @@ footer {
   background-image: url('./assets/bg-footer-squiggle.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  border: 2px solid red;
-  /* background-position: center; */
 }
-
-/* .footer-squiggle {
-  position: absolute;
-  left: -105px;
-  z-index: -100;
-}
-
-.footer-squiggle img {
-  width: 584px;
-} */
 
 footer h2 {
   padding: 0 20%;
   line-height: 2.25rem;
   margin-bottom: 1.875rem;
+}
 
+footer form {
+  max-width: 27.75rem;
+  margin: 0 auto 10.25rem;
+}
+
+footer form input {
+  margin-bottom: 1.5rem;
 }
 
 
@@ -485,5 +479,26 @@ footer h2 {
     margin: 0;
     margin-right: 3.5rem;
     flex-shrink: 0;
+  }
+
+
+
+  /* FOOTER ---------------------------------------------------------------*/
+  footer form {
+    margin: 0 auto 7.5rem;
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+  }
+  
+  footer .text-field {
+    margin-bottom: 1.5rem;
+    height: 100%;
+    width: 20rem;
+  }
+
+  footer form button {
+    width: 8.75rem;
   }
 }
