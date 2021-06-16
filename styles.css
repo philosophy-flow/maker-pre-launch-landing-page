@@ -366,9 +366,15 @@ footer {
   text-align: center;
   position: relative;
   overflow: hidden;
+
+  background-image: url('./assets/bg-footer-squiggle.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid red;
+  /* background-position: center; */
 }
 
-.footer-squiggle {
+/* .footer-squiggle {
   position: absolute;
   left: -105px;
   z-index: -100;
@@ -376,12 +382,13 @@ footer {
 
 .footer-squiggle img {
   width: 584px;
-}
+} */
 
 footer h2 {
   padding: 0 20%;
   line-height: 2.25rem;
   margin-bottom: 1.875rem;
+
 }
 
 
