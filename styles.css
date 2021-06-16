@@ -394,7 +394,7 @@ footer form input {
 
 /* TABLET */ 
 @media only screen and (min-width: 768px) {
-
+  
   /* HEADER + BANNER ---------------------------------------------------------*/
   header {
     display: block;
@@ -501,4 +501,82 @@ footer form input {
   footer form button {
     width: 8.75rem;
   }
+}
+
+
+
+
+
+
+/* LARGE DISPLAY */ 
+@media only screen and (min-width: 1440px) {
+  /* HEADER + BANNER ---------------------------------------------------------*/
+  header {
+    display: block;
+    padding: 5rem 10rem 7.125rem;
+  }
+
+  .banner {
+    height: 28.75rem;
+    margin-bottom: 12.625rem;
+  }
+
+  .banner-left {
+    width: 28.3%;
+  }
+
+  .banner-right {
+    width: 27.5%;
+  }
+
+  .banner-left img {
+    left: -3.25rem;
+  }
+
+  .banner-right img {
+    right: -3.75rem;
+  }
+
+  .banner h1 {
+    margin-top: 5.5rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .banner p {
+    margin-bottom: 4rem;
+    padding: 0 6rem;
+  }
+
+    /* FEATURES ------------------------------------------------------------*/
+    .features {
+      text-align: left;
+      margin: 0 auto 9rem;
+      justify-content: space-between;
+      max-width: 69rem;
+    }
+  
+    .feature {
+      margin-bottom: 3.5rem;
+      display: flex;
+      align-items: center;
+    }
+  
+    .feature:nth-child(odd) {
+      margin-left: 3.625rem;
+    }
+  
+    .feature:nth-child(even) {
+      margin-right: 3.625rem;
+    }
+  
+    .feature:last-child {
+      margin-bottom: 0;
+    }
+  
+    .icon-container {
+      margin: 0;
+      margin-right: 3.5rem;
+      flex-shrink: 0;
+    }
 }
