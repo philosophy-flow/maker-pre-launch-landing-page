@@ -219,8 +219,10 @@ header {
 /*----------------------------------------------------------------------------*/
 
 .pricing {
-  margin: 0 6%;
+  margin: 0 auto;
   color: var(--white);
+  width: 87%;
+  max-width: 37.5rem;
 }
 
 .pricing h2 {
@@ -234,13 +236,13 @@ header {
 
 
 .option-free {
-  margin-top: 5rem;
-  margin-bottom: 4rem;
+  margin: 5rem auto 4rem;
   background-color: var(--dark-blue);
   padding: 3.125rem 1.875rem 2rem;
   border-radius: .5rem;
   text-align: left;
   position: relative;
+  max-width: 27.75rem;
 }
 
 .option-free img {
@@ -295,7 +297,8 @@ header {
   border-radius: .5rem;
   text-align: left;
   position: relative;
-  margin-bottom: 9rem;
+  margin: 0 auto 9rem;
+  max-width: 27.75rem;
 }
 
 .option-premium img {
