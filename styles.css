@@ -548,35 +548,53 @@ footer form input {
     padding: 0 6rem;
   }
 
-    /* FEATURES ------------------------------------------------------------*/
-    .features {
-      text-align: left;
-      margin: 0 auto 9rem;
-      justify-content: space-between;
-      max-width: 69rem;
-    }
+
+  /* HEADER + BANNER ---------------------------------------------------------*/
+  .features {
+    margin: 0 auto 12.5rem;
+    min-width: 70rem;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 0;
+    width: 16rem;
+  }
+
+  .feature h3 {
+    margin: 3rem 0 1.5rem;
+  }
+
+  .feature:nth-child(odd) {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  .feature:nth-child(even) {
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .feature:last-child {
+    margin-bottom: 0;
+  }
+
+  .icon-container {
+    margin: 0;
+    margin-right: auto;
+
+    width: 10rem;
+    height: 10.25rem;
+  }
   
-    .feature {
-      margin-bottom: 3.5rem;
-      display: flex;
-      align-items: center;
-    }
-  
-    .feature:nth-child(odd) {
-      margin-left: 3.625rem;
-    }
-  
-    .feature:nth-child(even) {
-      margin-right: 3.625rem;
-    }
-  
-    .feature:last-child {
-      margin-bottom: 0;
-    }
-  
-    .icon-container {
-      margin: 0;
-      margin-right: 3.5rem;
-      flex-shrink: 0;
-    }
+  .passions-img {width: 5.5rem; height: 6.625rem;}
+  .freedom-img {width: 4.625rem; height: 5.625rem;}
+  .lifestyle-img {width: 5rem; height: 5.875rem;}
+  .work-img {width: 6.5rem; height: 4.625rem;}
 }
