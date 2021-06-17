@@ -367,6 +367,7 @@ footer {
 
   background-image: url('./assets/bg-footer-squiggle.svg');
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -509,7 +510,7 @@ footer form input {
 
 
 /* LARGE DISPLAY */ 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
   /* HEADER + BANNER ---------------------------------------------------------*/
   header {
     display: block;
@@ -549,7 +550,7 @@ footer form input {
   }
 
 
-  /* HEADER + BANNER ---------------------------------------------------------*/
+  /* FEATURES  ---------------------------------------------------------------*/
   .features {
     margin: 0 auto 12.5rem;
     min-width: 70rem;
