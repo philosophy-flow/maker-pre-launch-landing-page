@@ -491,12 +491,22 @@ footer form input {
     display: flex;
     justify-content: space-around;
     height: 3rem;
+    position: relative;
   }
   
   footer .text-field {
     margin-bottom: 1.5rem;
     height: 100%;
     width: 20rem;
+  }
+
+  .error-text {
+    display: none;
+    margin-top: .5rem;
+    color: var(--red);
+    position: absolute;
+    bottom: -50%;
+    left: 1.25rem; 
   }
 
   footer form button {
@@ -729,5 +739,5 @@ footer form input {
   
   .option-premium .check {
     color: inherit;
-    ma
+  }
 }

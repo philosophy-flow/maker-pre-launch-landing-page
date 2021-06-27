@@ -18,7 +18,6 @@ form.addEventListener('submit', e => {
 });
 
 textField.addEventListener('input', () => {
-  console.log('changing');
   if (validateEmail(textField.value)) {
     textField.classList.add('text-field-verified');
     textField.classList.remove('text-field-error');
